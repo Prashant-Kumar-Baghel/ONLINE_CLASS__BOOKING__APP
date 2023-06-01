@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+table {
+    border: 1px solid #cccccc;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+tr td {
+    border: 1px solid #cccccc;
+}
+
+
+
+.booking_table_header_row {
+    background-color: #172269;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.booking_table_header_row>th {
+    border: none;
+    padding: 20px 10px;
+    width: 10%;
+    text-align: center;
+}
+
+.book_app_button {
+    padding: 10px 10px;
+    width: 100%;
+    background-color: #e7702d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.booking_table_row>td {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.booking_table_row>button {}
